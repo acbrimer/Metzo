@@ -1,0 +1,294 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/adambrimer/Dev/Metzo/Console/Metzo.Console.csproj": {}
+  },
+  "projects": {
+    "/Users/adambrimer/Dev/Metzo/Console/Metzo.Console.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/adambrimer/Dev/Metzo/Console/Metzo.Console.csproj",
+        "projectName": "Metzo.Console",
+        "projectPath": "/Users/adambrimer/Dev/Metzo/Console/Metzo.Console.csproj",
+        "packagesPath": "/Users/adambrimer/.nuget/packages/",
+        "outputPath": "/Users/adambrimer/Dev/Metzo/Console/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/adambrimer/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/adambrimer/Dev/Metzo/Core/Metzo.Core.csproj": {
+                "projectPath": "/Users/adambrimer/Dev/Metzo/Core/Metzo.Core.csproj"
+              },
+              "/Users/adambrimer/Dev/Metzo/Demo/DbContexts/SongbookDbContext/Metzo.Demo.DbContexts.SongbookDbContext.csproj": {
+                "projectPath": "/Users/adambrimer/Dev/Metzo/Demo/DbContexts/SongbookDbContext/Metzo.Demo.DbContexts.SongbookDbContext.csproj"
+              },
+              "/Users/adambrimer/Dev/Metzo/Demo/DbContexts/WholesaleSodaDbContext/Metzo.Demo.DbContexts.WholesaleSodaDbContext.csproj": {
+                "projectPath": "/Users/adambrimer/Dev/Metzo/Demo/DbContexts/WholesaleSodaDbContext/Metzo.Demo.DbContexts.WholesaleSodaDbContext.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.Core": {
+              "target": "Package",
+              "version": "[2.2.5, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.9, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.306/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/adambrimer/Dev/Metzo/Core/Metzo.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/adambrimer/Dev/Metzo/Core/Metzo.Core.csproj",
+        "projectName": "Metzo.Core",
+        "projectPath": "/Users/adambrimer/Dev/Metzo/Core/Metzo.Core.csproj",
+        "packagesPath": "/Users/adambrimer/.nuget/packages/",
+        "outputPath": "/Users/adambrimer/Dev/Metzo/Core/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/adambrimer/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.9, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.306/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/adambrimer/Dev/Metzo/Demo/DbContexts/SongbookDbContext/Metzo.Demo.DbContexts.SongbookDbContext.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/adambrimer/Dev/Metzo/Demo/DbContexts/SongbookDbContext/Metzo.Demo.DbContexts.SongbookDbContext.csproj",
+        "projectName": "Metzo.Demo.DbContexts.SongbookDbContext",
+        "projectPath": "/Users/adambrimer/Dev/Metzo/Demo/DbContexts/SongbookDbContext/Metzo.Demo.DbContexts.SongbookDbContext.csproj",
+        "packagesPath": "/Users/adambrimer/.nuget/packages/",
+        "outputPath": "/Users/adambrimer/Dev/Metzo/Demo/DbContexts/SongbookDbContext/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/adambrimer/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[7.0.9, )"
+            },
+            "MySql.Data.EntityFramework": {
+              "target": "Package",
+              "version": "[8.1.0, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[7.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.306/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/adambrimer/Dev/Metzo/Demo/DbContexts/WholesaleSodaDbContext/Metzo.Demo.DbContexts.WholesaleSodaDbContext.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/adambrimer/Dev/Metzo/Demo/DbContexts/WholesaleSodaDbContext/Metzo.Demo.DbContexts.WholesaleSodaDbContext.csproj",
+        "projectName": "Metzo.Demo.DbContexts.WholesaleSodaDbContext",
+        "projectPath": "/Users/adambrimer/Dev/Metzo/Demo/DbContexts/WholesaleSodaDbContext/Metzo.Demo.DbContexts.WholesaleSodaDbContext.csproj",
+        "packagesPath": "/Users/adambrimer/.nuget/packages/",
+        "outputPath": "/Users/adambrimer/Dev/Metzo/Demo/DbContexts/WholesaleSodaDbContext/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/adambrimer/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Bogus": {
+              "target": "Package",
+              "version": "[34.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[7.0.9, )"
+            },
+            "MySql.Data.EntityFramework": {
+              "target": "Package",
+              "version": "[8.1.0, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[7.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.306/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

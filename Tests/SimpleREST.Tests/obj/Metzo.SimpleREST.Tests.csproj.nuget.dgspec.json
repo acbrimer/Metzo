@@ -1,0 +1,87 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/adambrimer/Dev/Metzo/Tests/SimpleREST.Tests/Metzo.SimpleREST.Tests.csproj": {}
+  },
+  "projects": {
+    "/Users/adambrimer/Dev/Metzo/Tests/SimpleREST.Tests/Metzo.SimpleREST.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/adambrimer/Dev/Metzo/Tests/SimpleREST.Tests/Metzo.SimpleREST.Tests.csproj",
+        "projectName": "Metzo.SimpleREST.Tests",
+        "projectPath": "/Users/adambrimer/Dev/Metzo/Tests/SimpleREST.Tests/Metzo.SimpleREST.Tests.csproj",
+        "packagesPath": "/Users/adambrimer/.nuget/packages/",
+        "outputPath": "/Users/adambrimer/Dev/Metzo/Tests/SimpleREST.Tests/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/adambrimer/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "MSTest.TestAdapter": {
+              "target": "Package",
+              "version": "[2.2.10, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[2.2.10, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Core": {
+              "target": "Package",
+              "version": "[2.2.5, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.9, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.5.0, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[3.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.306/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,14 @@
+/Users/adambrimer/Dev/Metzo/Demo/DbContexts/SongbookDbContext/bin/Debug/net7.0/Metzo.Demo.DbContexts.SongbookDbContext.deps.json
+/Users/adambrimer/Dev/Metzo/Demo/DbContexts/SongbookDbContext/bin/Debug/net7.0/Metzo.Demo.DbContexts.SongbookDbContext.runtimeconfig.json
+/Users/adambrimer/Dev/Metzo/Demo/DbContexts/SongbookDbContext/bin/Debug/net7.0/Metzo.Demo.DbContexts.SongbookDbContext.dll
+/Users/adambrimer/Dev/Metzo/Demo/DbContexts/SongbookDbContext/bin/Debug/net7.0/Metzo.Demo.DbContexts.SongbookDbContext.pdb
+/Users/adambrimer/Dev/Metzo/Demo/DbContexts/SongbookDbContext/obj/Debug/net7.0/Metzo.Demo.DbContexts.SongbookDbContext.csproj.AssemblyReference.cache
+/Users/adambrimer/Dev/Metzo/Demo/DbContexts/SongbookDbContext/obj/Debug/net7.0/Metzo.Demo.DbContexts.SongbookDbContext.GeneratedMSBuildEditorConfig.editorconfig
+/Users/adambrimer/Dev/Metzo/Demo/DbContexts/SongbookDbContext/obj/Debug/net7.0/Metzo.Demo.DbContexts.SongbookDbContext.AssemblyInfoInputs.cache
+/Users/adambrimer/Dev/Metzo/Demo/DbContexts/SongbookDbContext/obj/Debug/net7.0/Metzo.Demo.DbContexts.SongbookDbContext.AssemblyInfo.cs
+/Users/adambrimer/Dev/Metzo/Demo/DbContexts/SongbookDbContext/obj/Debug/net7.0/Metzo.Demo.DbContexts.SongbookDbContext.csproj.CoreCompileInputs.cache
+/Users/adambrimer/Dev/Metzo/Demo/DbContexts/SongbookDbContext/obj/Debug/net7.0/Metzo.Demo.DbContexts.SongbookDbContext.dll
+/Users/adambrimer/Dev/Metzo/Demo/DbContexts/SongbookDbContext/obj/Debug/net7.0/refint/Metzo.Demo.DbContexts.SongbookDbContext.dll
+/Users/adambrimer/Dev/Metzo/Demo/DbContexts/SongbookDbContext/obj/Debug/net7.0/Metzo.Demo.DbContexts.SongbookDbContext.pdb
+/Users/adambrimer/Dev/Metzo/Demo/DbContexts/SongbookDbContext/obj/Debug/net7.0/Metzo.Demo.DbContexts.SongbookDbContext.genruntimeconfig.cache
+/Users/adambrimer/Dev/Metzo/Demo/DbContexts/SongbookDbContext/obj/Debug/net7.0/ref/Metzo.Demo.DbContexts.SongbookDbContext.dll

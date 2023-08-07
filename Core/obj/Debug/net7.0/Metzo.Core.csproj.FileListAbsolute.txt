@@ -1,0 +1,12 @@
+/Users/adambrimer/Dev/Metzo/Core/bin/Debug/net7.0/Metzo.Core.deps.json
+/Users/adambrimer/Dev/Metzo/Core/bin/Debug/net7.0/Metzo.Core.dll
+/Users/adambrimer/Dev/Metzo/Core/bin/Debug/net7.0/Metzo.Core.pdb
+/Users/adambrimer/Dev/Metzo/Core/obj/Debug/net7.0/Metzo.Core.csproj.AssemblyReference.cache
+/Users/adambrimer/Dev/Metzo/Core/obj/Debug/net7.0/Metzo.Core.GeneratedMSBuildEditorConfig.editorconfig
+/Users/adambrimer/Dev/Metzo/Core/obj/Debug/net7.0/Metzo.Core.AssemblyInfoInputs.cache
+/Users/adambrimer/Dev/Metzo/Core/obj/Debug/net7.0/Metzo.Core.AssemblyInfo.cs
+/Users/adambrimer/Dev/Metzo/Core/obj/Debug/net7.0/Metzo.Core.csproj.CoreCompileInputs.cache
+/Users/adambrimer/Dev/Metzo/Core/obj/Debug/net7.0/Metzo.Core.dll
+/Users/adambrimer/Dev/Metzo/Core/obj/Debug/net7.0/refint/Metzo.Core.dll
+/Users/adambrimer/Dev/Metzo/Core/obj/Debug/net7.0/Metzo.Core.pdb
+/Users/adambrimer/Dev/Metzo/Core/obj/Debug/net7.0/ref/Metzo.Core.dll
