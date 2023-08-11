@@ -3,37 +3,90 @@
 A lightweight, unobtrusive layer between Entity Framework and a simple, well-defined REST Api
 
 ## About
-This project is still, as you may notice, very much still in development. I have been working on this concept for several years and finally figured out a good solution for making it work using C# + Entity Framework. I still have several weekends worth of coding before this is ready to use, but feel free to check it out and stay tuned for more!
+This project is, as you may notice, very much still in development. I have been working on this concept for a while, and finally figured out a solution I am happy with using C# + Entity Framework. I still have several weekends worth of coding before this is ready to use, but feel free to check it out and stay tuned for more!
 
 ## Project Overview
-
-\
-├── Metzo.sln
-├── Core/
-│ ├── Core.csproj
-│ └── // Core project files
-├── SimpleREST/
-│ ├── SimpleREST.csproj
-│ └── // SimpleREST project files
-├── Console/
-│ ├── console.csproj
-│ └── // Console application files
-├── Test/
-│ ├── Core.Tests/
-│ │ ├── Core.Tests.csproj
-│ │ └── // Core unit tests files
-│ └── SimpleREST.Tests/
-│ ├── SimpleREST.Tests.csproj
-│ └── // SimpleREST unit tests files
-└── Demo/
-├── DbContexts/
-│ └── DemoDbContext/
-│ ├── DemoDbContext.csproj
-│ └── // Demo DbContext project files
-└── Apps/
-└── DemoApp/
-├── DemoApp.csproj
-├── // Demo Web API project files
-└── Client/
-├── package.json
-└── // Client SPA files
+- [Metzo.sln](Metzo.sln)
+- [Core](Core)
+  - [Filters](Core/Filters)
+    - [Filter.cs](Core/Filters/Filter.cs)
+    - [FilterGroup.cs](Core/Filters/FilterGroup.cs)
+    - [FilterPredicate.cs](Core/Filters/FilterPredicate.cs)
+    - [IFilterItem.cs](Core/Filters/IFilterItem.cs)
+    - [WithFiltersExpressionVisitor.cs](Core/Filters/WithFiltersExpressionVisitor.cs)
+    - [WithFiltersPlaceholderExpression.cs](Core/Filters/WithFiltersPlaceholderExpression.cs)
+  - [QueryableExtensions.cs](Core/QueryableExtensions.cs)
+- [SimpleREST](SimpleREST)
+  - [Class1.cs](SimpleREST/Class1.cs)
+- [Console](Console)
+  - [Program.cs](Console/Program.cs)
+- [Tests](Tests)
+  - [Core.Tests](Tests/Core.Tests)
+    - [UnitTest1.cs](Tests/Core.Tests/UnitTest1.cs)
+    - [Usings.cs](Tests/Core.Tests/Usings.cs)
+  - [SimpleREST.Tests](Tests/SimpleREST.Tests)
+    - [UnitTest1.cs](Tests/SimpleREST.Tests/UnitTest1.cs)
+    - [Usings.cs](Tests/SimpleREST.Tests/Usings.cs)
+- [Demo](Demo)
+  - [Apps](Demo/Apps)
+    - [SongbookApp](Demo/Apps/SongbookApp)
+      - [Controllers](Demo/Apps/SongbookApp/Controllers)
+        - [WeatherForecastController.cs](Demo/Apps/SongbookApp/Controllers/WeatherForecastController.cs)
+      - [Program.cs](Demo/Apps/SongbookApp/Program.cs)
+      - [Properties](Demo/Apps/SongbookApp/Properties)
+        - [launchSettings.json](Demo/Apps/SongbookApp/Properties/launchSettings.json)
+      - [WeatherForecast.cs](Demo/Apps/SongbookApp/WeatherForecast.cs)
+      - [appsettings.Development.json](Demo/Apps/SongbookApp/appsettings.Development.json)
+      - [appsettings.json](Demo/Apps/SongbookApp/appsettings.json)
+      - [client](Demo/Apps/SongbookApp/client)
+        - [index.html](Demo/Apps/SongbookApp/client/index.html)
+        - [package.json](Demo/Apps/SongbookApp/client/package.json)
+        - [public](Demo/Apps/SongbookApp/client/public)
+        - [src](Demo/Apps/SongbookApp/client/src)
+          - [App.css](Demo/Apps/SongbookApp/client/src/App.css)
+          - [App.tsx](Demo/Apps/SongbookApp/client/src/App.tsx)
+          - [assets](Demo/Apps/SongbookApp/client/src/assets)
+          - [index.css](Demo/Apps/SongbookApp/client/src/index.css)
+          - [main.tsx](Demo/Apps/SongbookApp/client/src/main.tsx)
+          - [vite-env.d.ts](Demo/Apps/SongbookApp/client/src/vite-env.d.ts)
+    - [WholesaleSodaApp](Demo/Apps/WholesaleSodaApp)
+      - [Controllers](Demo/Apps/WholesaleSodaApp/Controllers)
+        - [WeatherForecastController.cs](Demo/Apps/WholesaleSodaApp/Controllers/WeatherForecastController.cs)
+      - [Program.cs](Demo/Apps/WholesaleSodaApp/Program.cs)
+      - [Properties](Demo/Apps/WholesaleSodaApp/Properties)
+        - [launchSettings.json](Demo/Apps/WholesaleSodaApp/Properties/launchSettings.json)
+      - [WeatherForecast.cs](Demo/Apps/WholesaleSodaApp/WeatherForecast.cs)
+      - [appsettings.Development.json](Demo/Apps/WholesaleSodaApp/appsettings.Development.json)
+      - [appsettings.json](Demo/Apps/WholesaleSodaApp/appsettings.json)
+      - [client](Demo/Apps/WholesaleSodaApp/client)
+        - [index.html](Demo/Apps/WholesaleSodaApp/client/index.html)
+        - [package.json](Demo/Apps/WholesaleSodaApp/client/package.json)
+        - [public](Demo/Apps/WholesaleSodaApp/client/public)
+        - [src](Demo/Apps/WholesaleSodaApp/client/src)
+          - [App.css](Demo/Apps/WholesaleSodaApp/client/src/App.css)
+          - [App.tsx](Demo/Apps/WholesaleSodaApp/client/src/App.tsx)
+          - [assets](Demo/Apps/WholesaleSodaApp/client/src/assets)
+          - [index.css](Demo/Apps/WholesaleSodaApp/client/src/index.css)
+          - [main.tsx](Demo/Apps/WholesaleSodaApp/client/src/main.tsx)
+          - [vite-env.d.ts](Demo/Apps/WholesaleSodaApp/client/src/vite-env.d.ts)
+  - [DbContexts](Demo/DbContexts)
+    - [SongbookDbContext](Demo/DbContexts/SongbookDbContext)
+      - [Class1.cs](Demo/DbContexts/SongbookDbContext/Class1.cs)
+    - [WholesaleSodaDbContext](Demo/DbContexts/WholesaleSodaDbContext)
+      - [Address.cs](Demo/DbContexts/WholesaleSodaDbContext/Address.cs)
+      - [Customer.cs](Demo/DbContexts/WholesaleSodaDbContext/Customer.cs)
+      - [CustomerAddress.cs](Demo/DbContexts/WholesaleSodaDbContext/CustomerAddress.cs)
+      - [CustomerOrg.cs](Demo/DbContexts/WholesaleSodaDbContext/CustomerOrg.cs)
+      - [Order.cs](Demo/DbContexts/WholesaleSodaDbContext/Order.cs)
+      - [OrderProduct.cs](Demo/DbContexts/WholesaleSodaDbContext/OrderProduct.cs)
+      - [OrderShippingAddress.cs](Demo/DbContexts/WholesaleSodaDbContext/OrderShippingAddress.cs)
+      - [Product.cs](Demo/DbContexts/WholesaleSodaDbContext/Product.cs)
+      - [ProductLine.cs](Demo/DbContexts/WholesaleSodaDbContext/ProductLine.cs)
+      - [SeedData.cs](Demo/DbContexts/WholesaleSodaDbContext/SeedData.cs)
+      - [WholesaleSodaContext.cs](Demo/DbContexts/WholesaleSodaDbContext/WholesaleSodaContext.cs)
+      - [WholesaleSodaFactory.cs](Demo/DbContexts/WholesaleSodaDbContext/WholesaleSodaFactory.cs)
+      - [efMigrations.sh](Demo/DbContexts/WholesaleSodaDbContext/efMigrations.sh)
+  - [create-demo.bash](Demo/create-demo.bash)
+  - [remove-demo.bash](Demo/remove-demo.bash)
+- [scripts](scripts)
+  - [markdown-tree.py](scripts/markdown-tree.py)
